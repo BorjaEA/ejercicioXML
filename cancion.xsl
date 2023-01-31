@@ -7,13 +7,13 @@
 			</head>
 			<body>
 				<h1>Cancion: <xsl:value-of select="cancion/titulo"></xsl:value-of></h1>
-				<h2>Autor: <xsl:value-of select="cancion/autor"></xsl:value-of></h2>
+				<spam>Autor: <xsl:value-of select="cancion/autor"></xsl:value-of></spam>
 				<br/>
 				
 				<xsl:for-each select="cancion/letra/estrofa">
-					<xsl:for-each select="verso">
-						<p><xsl:value-of select="."></xsl:value-of></p>
-					</xsl:for-each>
+					<div>
+						<xsl:for-each select="verso"><p><xsl:value-of select="."></xsl:value-of></p>	</xsl:for-each>
+					</div>
 					<br/>
 				</xsl:for-each>
 			</body>

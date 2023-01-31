@@ -4,9 +4,9 @@
 body {
   counter-reset: section;
 }
-h2::before {
+div::before {
   counter-increment: section;
-  content: "verso " counter(section) ": ";
+  content: "Estrofa " counter(section) ": ";
 }
 h2 {
   text-decoration:underline;
