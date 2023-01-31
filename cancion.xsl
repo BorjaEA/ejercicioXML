@@ -29,12 +29,6 @@
 		</h3>
 	</xsl:template>
 
-	<xsl:template match="contador">
-		<h2><span>
-			<xsl:value-of select="."/>
-		</span></h2>
-	</xsl:template>
-
 	<xsl:template match="verso">
 		<p>
 			<xsl:value-of select="."/>
