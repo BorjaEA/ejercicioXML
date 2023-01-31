@@ -7,7 +7,7 @@
 			</head>
 			<body>
 				<h1>Cancion: <xsl:value-of select="cancion/titulo"></xsl:value-of></h1>
-				<spam>Autor: <xsl:value-of select="cancion/autor"></xsl:value-of></spam>
+				<span>Autor: <xsl:value-of select="cancion/autor"></xsl:value-of></span>
 				<br/>
 				
 				<xsl:for-each select="cancion/letra/estrofa">
