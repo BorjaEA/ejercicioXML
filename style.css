@@ -6,7 +6,7 @@ body {
 }
 h2::before {
   counter-increment: section;
-  content: "Esfrofa " counter(section) ": ";
+  content: "verso " counter(section) ": ";
 }
 h2 {
   text-decoration:underline;
