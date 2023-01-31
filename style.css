@@ -11,9 +11,6 @@ div::before {
 h2 {
   text-decoration:underline;
 }
-h3 {
-  color: grey;
-}
 p {
   color: blue;
   font-weight: 600;
